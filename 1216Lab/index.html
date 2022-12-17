@@ -1,19 +1,35 @@
+<!DOCTYPE html>
 <html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
 <body>
-	
+
 	<script>
 		var intF;
 		intF = parseInt(window.prompt("Enter first integer"));
 		var intS;
 		intS = parseInt(window.prompt("Enter second integer"));
-		var sum = intF + intS;
-		document.writeln("The sum is " + sum);
+
+		if (intF > intS) {
+			document.body.style.backgroundColor = 'lightblue';
+			document.write(intF + ' > ' + intS);
+		} 
+		else if (intS > intF) {
+			document.body.style.backgroundColor = 'lightgreen';
+			document.write(intS + ' > ' + intF);
+		} 
+		else {
+			document.body.style.backgroundColor = 'lightyellow';
+			document.write(intS + ' = ' + intF);
+		}
+
 	</script>
-	
 
-
-
-
+<input type="button" value="1st button" onClick="alert(intF);">
+<input type="button" value="2nd button" onClick="alert(intS);">
 
 </body>
 </html>
