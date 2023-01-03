@@ -1,0 +1,30 @@
+#whales {
+    background-color: lightblue;
+    padding: 35px;
+    text-align: center;
+}
+
+.species {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+ colorchange {
+    color: orchid;
+    border: 2px solid orange;
+}
+.extra colorchange {
+    color: inherit;
+}
+
+p {
+
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-left: 3px;
+    padding-bottom: 50px;
+}
+
+
+
